@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  /* background-color: #268085; */
+  color: #343a40;
+  padding: 2%;
+  margin: 4% 20%;
+  border-radius: 30px;
+  border: 2px dashed #343a40;
+}
+
+.list-users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-card {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.user-card .name {
+  color: #268085;
+}
